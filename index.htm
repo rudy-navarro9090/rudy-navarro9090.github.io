@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navarro : Home Final</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="mainHeader"> 
+  <h1><a href="../index.htm"><a href="index.htm"><img src="images/homeIcon.png" alt="" width="50" height="50" class="homeIcon"/></a>Home<img src="images/skyBannerAbsolute.png" alt="skyBanner" width="120" height="600" id="skyBanner"/></h1>
+	<div class="jsModule"><script LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!--  Author: www.cgiscript.net  -->
+
+<!-- Begin
+
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write(today);
+
+//  End -->
+</script></div>
+</header>
+<nav class="mainNav">
+  <ul>
+    <li><a href="index.htm" class="Hcurrent">Home</a></li>
+    <li><a href="about/about.htm">About</a></li>
+    <li><a href="work/work.htm">Work</a></li>
+    <li><a href="contact/contact.htm">Contact</a></li>
+  </ul>
+</nav>
+<main class="mainContent">
+  <p><img src="images/mainContentWrap.png" width="100" height="100" alt="Image of Green Girls sitting on a White Beach, Titiled &quot;Green Gal Galaxy&quot;"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla est non ante malesuada lobortis. Aenean ac risus varius, lobortis libero non, porta sapien. Vestibulum lacus augue, congue ut lacinia a, convallis vulputate magna. Nunc sapien lectus, fermentum eu lobortis non, mollis non purus. Ut hendrerit eget dolor nec cursus. Ut quis interdum nunc. Fusce at pretium lectus. Ut elit enim, ultricies ac tempor sed, imperdiet eu massa. In laoreet dapibus ligula. Cras varius neque nulla, in vehicula urna malesuada in. Donec non ultricies ante. Phasellus suscipit feugiat mauris, eget sollicitudin metus scelerisque at. Fusce nec volutpat nisi. Duis ut vestibulum nisl, nec suscipit est. Phasellus dignissim eget tortor et venenatis.</p>
+  <p>Mauris eu fringilla velit. Pellentesque sit amet dapibus eros, eu tempor dolor. Proin sit amet neque a orci vehicula accumsan at sed ligula. Donec tincidunt condimentum nisl vel rhoncus. Etiam ut ullamcorper risus. Aenean quis iaculis justo. Maecenas tempus magna tortor, vitae placerat sapien scelerisque pharetra. Sed turpis neque, hendrerit eu arcu sed, consectetur luctus arcu.</p>
+  <p>Curabitur sed aliquam arcu, rhoncus posuere dui. Maecenas sed quam eleifend purus varius viverra. Donec id bibendum sapien. Suspendisse lobortis enim sed rhoncus dignissim. Vivamus tempor purus purus, nec efficitur enim pulvinar id. Suspendisse ornare massa eget nisl accumsan efficitur. Proin ipsum metus, scelerisque in lectus non, aliquet blandit ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam semper ac est quis iaculis. Vivamus vel lorem nibh.</p>
+</main>
+<footer class="mainFooter">
+  <h4><a href="index.htm" class="Fcurrent">Home</a> | <a href="about/about.htm">About</a> | <a href="work/work.htm">Work</a> | <a href="contact/contact.htm">Contact</a></h4>
+</footer>
+</body>
+</html>

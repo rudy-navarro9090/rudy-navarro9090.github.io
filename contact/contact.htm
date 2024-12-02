@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navarro : Contact Final</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<img src="images/cornerImageFix.png" alt="Corner Image" width="300" height="302" id="cornerImageFix"/>
+<header class="contactMainHeader"> 
+  <h1><a href="../index.htm"><img src="../images/homeIcon.png" alt="" width="50" height="50" class="homeIcon"/>Contact</h1>
+  <div class="jsModule"><script LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!--  Author: www.cgiscript.net  -->
+
+<!-- Begin
+
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write(today);
+
+//  End -->
+</script></div>
+</header>
+<nav class="mainNav">
+  <ul>
+    <li><a href="../index.htm">Home</a></li>
+    <li><a href="../about/about.htm">About</a></li>
+    <li><a href="work.htm" class="Hcurrent">Work</a></li>
+    <li><a href="../contact/contact.htm">Contact</a></li>
+  </ul>
+</nav>
+<main class="mainContent">
+	<aside class="leftAside">
+	  <p><a href="mailto:sarahfrompunchout@gmail.com">sarahfrompunchout@gmail.com</a></p>
+      <a href="mailto:sarahfrompunchout@gmail.com"><img src="images/email.png" width="128" height="128" alt=""/></a>
+	</aside>
+  <aside class="rightAside"><a href="rickroll.pdf"><img src="images/downloadPdf.png" width="128" height="128" alt=""/></a></aside>
+	</main>
+<footer class="mainFooter"> 
+  <h4><a href="../index.htm">Home</a> | <a href="../about/about.htm">About</a> | <a href="../work/work.htm">Work</a> | <a href="contact.htm" class="Fcurrent">Contact</a></h4>
+</footer>
+</body>
+	
+</html>
