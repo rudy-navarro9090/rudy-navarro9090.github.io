@@ -353,6 +353,44 @@ body {
 	background-image: url(../work/interactive/images/smallTile.png);
 	background-repeat: repeat;
 }
+.contactMainContent {
+	width: 900px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 0px;
+	background-image: url(../contact/images/contactNav.png);
+	background-repeat: no-repeat;
+	background-position: 400px 40px;
+	background-size: 200px auto;
+}
+.contactMainContent .leftAside {
+	width: 300px;
+	height: 200px;
+	margin-top: 15px;
+	margin-right: 15px;
+	float: left;
+	background-color: #751F20;
+	border-top-right-radius: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.contactMainContent .rightAside {
+	width: 300px;
+	height: 200px;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	float: right;
+	background-color: #7814EF;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
 .mainFooter {
 	height: 35px;
 	background-color: #1BAD0D;
